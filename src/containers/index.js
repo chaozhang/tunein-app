@@ -10,8 +10,8 @@ import footerProps from '../components/Footer/data'
 
 // containers
 import Home from './home/'
-import Colors from './colors/'
-import Future from './future/'
+import Readme from './readme/'
+import Others from './others/'
 import Invalid from './invalid/'
 
  
@@ -29,8 +29,8 @@ const App = () => {
                 <div id='center'>
                     <Switch>
                         <Route exact path={navProps.navItems[0].url} component={Home} />
-                        <Route path={navProps.navItems[1].url} component={Colors} />
-                        <Route path={navProps.navItems[2].url} component={Future} />
+                        <Route path={navProps.navItems[1].url} component={Readme} />
+                        <Route path={navProps.navItems[2].url} component={Others} />
                         <Route component={Invalid} />
                     </Switch>
                 </div>

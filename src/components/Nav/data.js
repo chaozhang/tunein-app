@@ -12,7 +12,7 @@ const navItems = [
       url: BASE_URL + 'readme'
     },
     {
-      name: 'Future Considerations',
+      name: 'Other Considerations',
       url: BASE_URL + 'future'
     }
 ];

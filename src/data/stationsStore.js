@@ -6,6 +6,10 @@ const _data = {
 }
 
 const generateStationsList = (data) => {
+  data.sort((a,b) => {
+    return b.reliability - a.reliability;
+  });
+
   _data.stationsList = data.map(({id, imgUrl, name}) => {
     return {id, imgUrl, name};
   });

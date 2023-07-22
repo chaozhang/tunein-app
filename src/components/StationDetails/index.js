@@ -16,11 +16,13 @@ const StationDetails = (props) => {
 		<div className="right">
 			<section className="title">{name}</section>
 			<section className="desc">{description}</section>
-			<section className="rating">Popularity: {popularity}</section>
-			<section className="quality">Reliability: {reliability}</section>
+			<section className="stats">
+				<div>Popularity: {popularity}</div>
+				<div>Reliability: {reliability}</div>
+			</section>
 			<section className='tags'>{tagsView}</section>
 			<section className="stream">
-				<audio controls key={id} autoplay="true">
+				<audio controls key={id} autoPlay={true}>
 				  <source src={streamUrl} type="audio/MP3"/>
 				</audio>
 			</section>
