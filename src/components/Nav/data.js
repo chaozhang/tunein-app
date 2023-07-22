@@ -9,11 +9,11 @@ const navItems = [
     },
     {
       name: 'Readme',
-      url: BASE_URL + 'colors'
+      url: BASE_URL + 'readme'
     },
     {
       name: 'Future Considerations',
-      url: BASE_URL + 'icons'
+      url: BASE_URL + 'future'
     }
 ];
 

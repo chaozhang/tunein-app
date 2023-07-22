@@ -18,10 +18,10 @@ CSS advanced Stylus support
 
 # Supported Features
 
-On initial page load fetch all stations data
-Cache and store optimized stations data
- - simple stations list with limited data
- - full station details store in a Map for fast data look up
+ - On initial page load fetch all stations data
+ - Cache and store optimized stations data
+ - Simple stations list with limited data
+ - Full station details store in a Map for fast data look up
  - Single station detailed view with audio playable(if the streaming URL works)
  - Stations Grid view, clicking on a single station opens up full detailed view on the top
  - Added Read me view on navigation
