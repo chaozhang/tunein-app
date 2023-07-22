@@ -2,19 +2,20 @@ Mini TuneIn application
 
 
 # Development
-gh repo clone chaozhang/tunein-app
-yarn
-yarn start
-yarn build
-yarn deploy
+ - gh repo 
+ - clone chaozhang/tunein-app
+ - yarn
+ - yarn start
+ - yarn build
+ - yarn deploy
 
 # Tech Stack Setup
 
-Single Page React App
-Public Github Integration
-Deploy Web App into public URL
-UI Components, Containers, Data layer separation
-CSS advanced Stylus support
+ - Single Page React App
+ - Public Github Integration
+ - Deploy Web App into public URL
+ - UI Components, Containers, Data layer separation
+ - CSS advanced Stylus support
 
 # Supported Features
 
