@@ -1,0 +1,41 @@
+header
+	display flex
+	justify-content center
+	align-items center
+	height 100px
+
+	.container
+		display flex
+		justify-content space-between
+		width content-width
+		height 80px
+		align-items: center
+
+		.title
+			font-size font-size-large
+			font-weight font-weight-bold
+			height 100%
+			width 300px
+			display flex
+			justify-content flex-start
+			align-items center
+
+			svg 
+				height 80px
+				width 80px
+				fill color-green-sea-700
+		
+		.links
+			display flex
+			justify-content center
+			align-items center
+
+			a
+				display block
+				padding 0 spacing-x-small
+				
+				:hover
+					text-decoration underline
+
+				&:first-child
+					border-right 1px solid color-blue-aluminium 

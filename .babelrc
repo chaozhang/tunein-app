@@ -1,0 +1,14 @@
+{
+  "presets": [
+  	"es2015", "react"
+  ],
+  "plugins": [
+  	"transform-class-properties",
+    [
+      "react-intl", {
+        "messagesDir": "./i18n/messages",
+        "enforceDescriptions": false
+      }
+    ]
+  ]
+}
