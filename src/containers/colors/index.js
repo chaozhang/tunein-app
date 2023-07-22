@@ -3,9 +3,7 @@ import React from 'react'
 
 const Colors = () => {
     return (
-        <div>
-            Page -> colors
-        </div>
+      <a href="https://github.com/chaozhang/tunein-app/blob/main/README.md" target="_blank">Read Me Link</a>
     )
 }
 

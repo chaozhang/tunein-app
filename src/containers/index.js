@@ -11,7 +11,7 @@ import footerProps from '../components/Footer/data'
 // containers
 import Home from './home/'
 import Colors from './colors/'
-import Icons from './icons/'
+import Future from './future/'
 import Invalid from './invalid/'
 
  
@@ -30,7 +30,7 @@ const App = () => {
                     <Switch>
                         <Route exact path={navProps.navItems[0].url} component={Home} />
                         <Route path={navProps.navItems[1].url} component={Colors} />
-                        <Route path={navProps.navItems[2].url} component={Icons} />
+                        <Route path={navProps.navItems[2].url} component={Future} />
                         <Route component={Invalid} />
                     </Switch>
                 </div>
