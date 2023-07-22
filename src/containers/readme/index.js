@@ -2,11 +2,13 @@ import React from 'react'
 
 
 const Readme = () => {
-    return (
-      <div className='readme'>
-        <iframe src="/assets/README.md" />
-      </div>
-    )
+  const README_URL = `${process.env.PUBLIC_URL || ''}/assets/README.md`;
+
+  return (
+    <div className='readme'>
+      <iframe src={README_URL} />
+    </div>
+  )
 }
 
 
