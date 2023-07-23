@@ -2,7 +2,7 @@ Mini TuneIn application
 
 
 # Development
- - gh repo 
+ - gh-page repo 
  - clone chaozhang/tunein-app
  - yarn
  - yarn start
