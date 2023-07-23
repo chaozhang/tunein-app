@@ -1,10 +1,20 @@
 import React from 'react'
+import othersData from './data'
+import {DocSection} from '../../components/'
 
 
 const Others = () => {
-    return (
-        <a href="https://github.com/chaozhang/tunein-app/blob/main/README.md" target="_blank">Future Considerations Link</a>
-    )
+  const sections = othersData.sections;
+  const sectionsView = sections.map((section, index) => {
+    return <DocSection {...section} key={index}></DocSection>
+  });
+
+  return (
+    <div className='readme'>
+      <h2>{othersData.title}</h2>
+      {sectionsView}
+    </div>
+  )
 }
 
 

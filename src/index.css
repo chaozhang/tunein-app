@@ -268,11 +268,19 @@ iframe {
   align-items: center;
   display: flex;
 }
-.readme {
+.doc-page {
   display: flex;
   flex-direction: column;
 }
-.readme h2 {
+.doc-page h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+.doc-page {
+  display: flex;
+  flex-direction: column;
+}
+.doc-page h2 {
   font-size: 1.25rem;
   margin-bottom: 10px;
 }
