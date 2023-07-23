@@ -1,12 +1,18 @@
 import React from 'react'
+import readmeData from './data'
+import {DocSection} from '../../components/'
 
 
 const Readme = () => {
-  const README_PATH = 'assets/README.md';
+  const sections = readmeData.sections;
+  const sectionsView = sections.map((section, index) => {
+    return <DocSection {...section} key={index}></DocSection>
+  });
 
   return (
     <div className='readme'>
-      <iframe src={README_PATH} />
+      <h2>{readmeData.title}</h2>
+      {sectionsView}
     </div>
   )
 }

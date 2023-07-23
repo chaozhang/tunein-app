@@ -4,6 +4,7 @@ import Nav from './Nav/'
 import Footer from './Footer/'
 import StationDetails from './StationDetails/'
 import StationsGrid from './StationsGrid/'
+import DocSection from './DocSection/'
 
 
 export {
@@ -12,5 +13,6 @@ export {
   Nav,
   Footer,
   StationDetails,
-  StationsGrid
+  StationsGrid,
+  DocSection
 };

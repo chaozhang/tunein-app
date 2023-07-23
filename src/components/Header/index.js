@@ -10,7 +10,7 @@ const Header = (props) => {
             <div className="container">
                 <Link className="title" to="/">
                     <Icon id='home' assetPath={process.env.PUBLIC_URL} />
-                    TuneIn Mini App
+                    TuneIn Mini App - Austin Zhang
                 </Link>
                 <div className="links">
                     <a href={props.repo} target="_blank">Github</a>
