@@ -1,7 +1,7 @@
 // others data
 
 const othersData = {
-    title: 'Mini TuneIn application - Other Considerations',
+    title: 'Other Considerations',
     sections: [
 	    {
             title: 'UI Tech Stack and Frameworks',
@@ -12,11 +12,12 @@ const othersData = {
             ]
 	    },
 	    {
-            title: 'UI Rendering Engine and Strategy',
+            title: 'Page Data and Rendering Strategy',
             items: [
                 'CSR(Client Side Rendering): build highly interactive TuneIn web apps/tools such as content creator studio, users data insights/analytics apps.',
                 'SSR(Server Side Rendering): build certain TuneIn web features that can leverage server side generated mark ups delivering to the clients',
-                'SSG(Static Site Generator): build TuneIn web pages that are less complex but more sensitive to page load speed and SEO results such as Tunein.com marketing page.'
+                'SSG(Static Site Generator): build TuneIn web pages that are less complex but more sensitive to page load speed and SEO results such as Tunein.com marketing page.',
+                'UI State Management(Redux): for high interactive experiences powered by client side data such as heavy editing functions, undo/redo etc'
             ]
 	    },
 	    {
@@ -24,7 +25,7 @@ const othersData = {
             items: [
                 'Server side rendering: for certain parts of TuneIn web apps mixing with CSR as needed.',
                 'Code splitting: clear separations between required data before page initial render, data for initial render and non visual UI handlings after initial view render(import, importForDisplay, importForAfterDisplay).',
-                'Graphql: no over or under data fetching, leverage differ/streaming support for certain Graphql fields to better optimize page initial render, also support EntryPoint for parallelized code+data downloading. A sample use case is to fetch visible TuneIn stations for initial render, and stream all other items afterwards without blocking the first visual completion.'
+                'Graphql: no over or under data fetching, leverage differ/streaming support for certain Graphql fields to better optimize page initial render, also support EntryPoint for parallelized code+data downloading. A sample use case is to fetch visible TuneIn stations for initial render, and stream all other items afterwards without blocking the first visual completion. Consider usering Relay for react app, and Appolo for non React apps.'
             ]
 	    },
         {
