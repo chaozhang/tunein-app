@@ -1,15 +1,15 @@
-Mini TuneIn application
+Mini TuneIn application - other considerations
 
 
-# Development
- - gh-page repo 
+# Engineering & Development
+ - gh repo 
  - clone chaozhang/tunein-app
  - yarn
  - yarn start
  - yarn build
  - yarn deploy
 
-# Tech Stack Setup
+# Page Speed and Performance
 
  - Single Page React App
  - Public Github Integration
