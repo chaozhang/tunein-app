@@ -276,14 +276,6 @@ iframe {
   font-size: 1.25rem;
   margin-bottom: 10px;
 }
-.doc-page {
-  display: flex;
-  flex-direction: column;
-}
-.doc-page h2 {
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-}
 .doc-section {
   border: 1px solid #c5d3e0;
   margin: 10px 0;

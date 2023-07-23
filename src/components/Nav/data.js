@@ -13,7 +13,7 @@ const navItems = [
     },
     {
       name: 'Other Considerations',
-      url: BASE_URL + 'future'
+      url: BASE_URL + 'others'
     }
 ];
 
